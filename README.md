@@ -33,4 +33,14 @@ Componentes en este proyecto:
 Formulario de login para usuarios registrados/registro para nuevos usuarios
 Ruta privada en la que se va a ver el menu
 API creada en mockapi https://664c9e9635bbda10988127e7.mockapi.io/comida
-Rutas GET, POST, DELETE:
+Rutas GET, POST, DELETE: GET https://664c9e9635bbda10988127e7.mockapi.io/comida
+
+GET https://664c9e9635bbda10988127e7.mockapi.io/comida/:id
+
+POST https://664c9e9635bbda10988127e7.mockapi.io/comida
+
+POST https://664c9e9635bbda10988127e7.mockapi.io/comida
+
+PUT https://664c9e9635bbda10988127e7.mockapi.io/comida/:id
+
+DELETE https://664c9e9635bbda10988127e7.mockapi.io/comida/:id
