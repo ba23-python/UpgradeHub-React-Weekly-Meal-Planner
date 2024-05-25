@@ -14,6 +14,7 @@ function App() {
   const [nombre, setNombre] = useState("");
   const [categoria, setCategoria] = useState("");
   const [descripcion, setDescripcion] = useState("");
+  const [day, setDay] = useState("")
 
   useEffect(() => {
     const fetchData = async () => {
@@ -29,7 +30,7 @@ function App() {
       } catch (error) {
         console.error('Error al realizar la solicitud:', error);
       }
-    };
+    };[];
 
     fetchData();
   }, []);
@@ -37,25 +38,30 @@ function App() {
    useEffect(() => {
   const postData = async () => {
     const newMeal = {
-      id: "{newMeal.length}", // Ensure this ID is unique if you need to specify it
+      id: "{newMeal.length}",
       nombre: "",
       categoria: "",
       descripcion: ""
-    };
+    };[];
 
     try {
       const response = await axios.post('https://664c9e9635bbda10988127e7.mockapi.io/comida', newMeal);
       console.log('POST response:', response.data);
-      
-      // Optionally update the state with the new meal
       setMeal(prevMeal => [...prevMeal, response.data]);
     } catch (error) {
       console.error('Error al realizar la solicitud POST:', error);
     }
-  };
+  };[];
 
   postData();
-}, []); // Empty dependency array to run this effect only once on mount
+}, []);
+
+useEffect(() => {
+  axios.get('https://664c9e9635bbda10988127e7.mockapi.io/users')
+    .then(response => {
+      setListUsers(response.data)
+    })
+}, []);
 
   const handleClick=() => {
     postData(); 
