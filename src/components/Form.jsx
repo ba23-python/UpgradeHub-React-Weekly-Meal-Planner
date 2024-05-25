@@ -8,7 +8,6 @@ function Form({ setMessage, changeUser, setUser, user }) {
     const inputRefName = useRef();
 
     useEffect(() => {
-        // focus
         inputRefEmail.current.focus()
     }, [])
 
@@ -31,7 +30,6 @@ function Form({ setMessage, changeUser, setUser, user }) {
     }
     const handleFocus = (inputRef) => {
         inputRef.current.classList.add("focus")
-        //classList.add("focus")
     }
     const handleBlur = (inputRef) => {
         inputRef.current.classList.remove("focus")
