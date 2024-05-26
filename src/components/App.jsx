@@ -9,7 +9,7 @@ import items from "./Data";
 import Menu from "./Menu";
 import Days from "./Days";
 
-const allDays = ["all", ...new Set(items.map((item) => item.dia))];
+const allDays = ["Platos", ...new Set(items.map((item) => item.dia))];
 
 function App() {
   const [user, setUser] = useState(null);
@@ -18,7 +18,7 @@ function App() {
   const [menuItems, setMenuItems] = useState(items);
 
   const filterItems = (dia) => {
-    if (dia === "all") {
+    if (dia === "Platos") {
       setMenuItems(items);
       return;
     }
@@ -40,7 +40,7 @@ function App() {
     <div>
       <NavBar />
       <Routes>
-        <Route path="/" element={<h2>Home</h2>} />
+        <Route path="/" element={<h2>Lista de Menu Semanal</h2>} />
         <Route
           path="/login"
           element={<Login listUsers={listUsers} setUser={setUser} />}
