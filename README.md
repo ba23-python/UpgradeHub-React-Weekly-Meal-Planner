@@ -61,4 +61,4 @@ DELETE https://664c9e9635bbda10988127e7.mockapi.io/comida/:id
 
 Se ha compratido la repo entre el equipo y se ha utiizado el Project Board de GitHub para las tareas:
 
-![image]([https://github.com/ba23-python/UpgradeHub-React-Weekly-Meal-Planner/blob/main/src/assets/Project%20Kanban%20Board.PNG)
+![image](https://github.com/ba23-python/UpgradeHub-React-Weekly-Meal-Planner/blob/main/src/assets/Project%20Kanban%20Board.PNG))
