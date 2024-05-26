@@ -1,7 +1,7 @@
 Proyecto React
 Planear Menu Comida semanal para 7 dias/ 3 comidas por dia
 
-https://ibb.co/85DFvDG
+![alt tag]([http://url/to/img.png](https://ibb.co/85DFvDG)
 
 Proyecto React En este proyecto vamos a realizar una aplicación web que nos permita hacer una planificación de un menú semanal. En la página web podemos introducir los datos de 3 comidas por día para una semana entera.
 
