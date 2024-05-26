@@ -1,7 +1,16 @@
-Proyecto React
-Comida Planer semanal 7 dias/ 3 comidas por dia
+# Proyecto React en equipo
+## Planer Menu Comida semanal para 7 dias/ 3 comidas por dia
+### Miembros del equipo: Bilyana Ancheva y Beatriz Vazquez Amat
 
-Proyecto React En este proyecto vamos a realizar una aplicación web que nos permita hacer una planificación de un menú semanal. En la página web podemos introducir los datos de 3 comidas por día para una semana entera.
+![image](https://github.com/ba23-python/UpgradeHub-React-Weekly-Meal-Planner/blob/main/src/assets/imagen-Weekly-Meal-Planner-all.PNG)
+![image](https://github.com/ba23-python/UpgradeHub-React-Weekly-Meal-Planner/blob/main/src/assets/imagen-Weekly-Meal-Planner-lunes.PNG)
+![image](https://github.com/ba23-python/UpgradeHub-React-Weekly-Meal-Planner/blob/main/src/assets/imagen-Weekly-Meal-Planner-martes.PNG)
+![image](https://github.com/ba23-python/UpgradeHub-React-Weekly-Meal-Planner/blob/main/src/assets/imagen-Weekly-Meal-Planner-miercoles.PNG)
+
+
+Este proyecto se esta realizando en equipo de 2 Junior Full Stack Developers, alumnas en Upgarde Hub.
+Vamos a realizar una aplicación web que nos permita hacer una planificación de un menú semanal. 
+En la página web podemos introducir los datos de 3 comidas por día para una semana entera.
 
 Objetivos
 
@@ -25,6 +34,8 @@ Objetivos
 8. Podrian usar la API de node que tengan ya programada o mockapi.io
 
 .gitignore para node_modules
+
+#### Comandos para ejecutar:
 npm install /** para node_modules
 npm run dev /\***para el localhost
 instalar Extension de Chrome para Componentes React
@@ -32,6 +43,7 @@ instalar Extension de Chrome para Componentes React
 Componentes en este proyecto:
 Formulario de login para usuarios registrados/registro para nuevos usuarios
 Ruta privada en la que se va a ver el menu
+Componentes App, Menu, Login, Days, Data
 API creada en mockapi https://664c9e9635bbda10988127e7.mockapi.io/comida
 Rutas GET, POST, DELETE: GET https://664c9e9635bbda10988127e7.mockapi.io/comida
 
@@ -44,3 +56,9 @@ POST https://664c9e9635bbda10988127e7.mockapi.io/comida
 PUT https://664c9e9635bbda10988127e7.mockapi.io/comida/:id
 
 DELETE https://664c9e9635bbda10988127e7.mockapi.io/comida/:id
+
+### Fase de organizar y systematizar los pasos en el proyecto
+
+Se ha compratido la repo entre el equipo y se ha utiizado el Project Board de GitHub para las tareas:
+
+![image](https://github.com/ba23-python/UpgradeHub-React-Weekly-Meal-Planner/blob/main/src/assets/Project%20Kanban%20Board.PNG))
