@@ -5,70 +5,40 @@ import NavBar from "./NavBar";
 import AuthRoute from "./AuthRoute/AuthRoute";
 import Profile from "./Profile";
 import axios from "axios";
+import items from "./Data";
+import Menu from "./Menu";
+import Days from "./Days";
 
+const allDays = ["all", ...new Set(items.map((item) => item.dia))];
 
 function App() {
   const [user, setUser] = useState(null);
   const [listUsers, setListUsers] = useState([]);
-  const [meal, setMeal] = useState([]);
-  const [nombre, setNombre] = useState("");
-  const [categoria, setCategoria] = useState("");
-  const [descripcion, setDescripcion] = useState("");
-  const [day, setDay] = useState("")
+  const [days, setDays] = useState(allDays);
+  const [menuItems, setMenuItems] = useState(items);
+
+  const filterItems = (dia) => {
+    if (dia === "all") {
+      setMenuItems(items);
+      return;
+    }
+    const newItems = items.filter((item) => item.dia === dia);
+    setMenuItems(newItems);
+  };
 
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await axios.get('https://664c9e9635bbda10988127e7.mockapi.io/comida');
-        const cleanData = response.data.map(item => ({
-          id: item.id,
-          nombre: item.nombre,
-          categoria: item.categoria,
-          descripcion: item.descripcion
-        }));
-        setMeal(cleanData);
-      } catch (error) {
-        console.error('Error al realizar la solicitud:', error);
-      }
-    };[];
-
-    fetchData();
+    axios
+      .get("https://664c9e9635bbda10988127e7.mockapi.io/users")
+      .then((response) => {
+        setListUsers(response.data);
+      });
   }, []);
 
-   useEffect(() => {
-  const postData = async () => {
-    const newMeal = {
-      id: "{newMeal.length}",
-      nombre: "",
-      categoria: "",
-      descripcion: ""
-    };[];
+ 
 
-    try {
-      const response = await axios.post('https://664c9e9635bbda10988127e7.mockapi.io/comida', newMeal);
-      console.log('POST response:', response.data);
-      setMeal(prevMeal => [...prevMeal, response.data]);
-    } catch (error) {
-      console.error('Error al realizar la solicitud POST:', error);
-    }
-  };[];
-
-  postData();
-}, []);
-
-useEffect(() => {
-  axios.get('https://664c9e9635bbda10988127e7.mockapi.io/users')
-    .then(response => {
-      setListUsers(response.data)
-    })
-}, []);
-
-  const handleClick=() => {
-    postData(); 
-  }
   return (
     <div>
-      <NavBar/>
+      <NavBar />
       <Routes>
         <Route path="/" element={<h2>Home</h2>} />
         <Route
@@ -80,42 +50,10 @@ useEffect(() => {
           element={<AuthRoute user={user} component={<Profile />} />}
         />
       </Routes>
-      <div>
-       <div>
-      <h1>Lista de Comidas</h1>
-      <input
-          type="text"
-          placeholder="Nombre"
-          value={nombre}
-          onChange={(e) => setNombre(e.target.value)}
-        />
-        <input
-          type="text"
-          placeholder="Categoria"
-          value={categoria}
-          onChange={(e) => setCategoria(e.target.value)}
-        />
-        <input
-          type="text"
-          placeholder="Descripcion"
-          value={descripcion}
-          onChange={(e) => setDescripcion(e.target.value)}
-        />
-      <button onClick={handleClick}>Add New Meal</button>
-      <ul>
-        {meal.map(meal => (
-          <li key={meal.id}>
-            <h3>{meal.nombre}</h3>
-            <p><strong>Categoría:</strong> {meal.categoria}</p>
-            <p>{meal.descripcion}</p>
-          </li>
-        ))}
-      </ul>
+      <Days days={days} filterItems={filterItems} />
+      <Menu items={menuItems} />
       
-
-    </div>
-    
-    </div>
+      <div></div>
     </div>
   );
 }
