@@ -1,5 +1,5 @@
-#Proyecto React
-##Planer Menu Comida semanal para 7 dias/ 3 comidas por dia
+# Proyecto React
+## Planer Menu Comida semanal para 7 dias/ 3 comidas por dia
 
 ![image](https://github.com/ba23-python/UpgradeHub-React-Weekly-Meal-Planner/blob/main/src/assets/imagen-Weekly-Meal-Planner-all.PNG)
 ![image](https://github.com/ba23-python/UpgradeHub-React-Weekly-Meal-Planner/blob/main/src/assets/imagen-Weekly-Meal-Planner-lunes.PNG)
