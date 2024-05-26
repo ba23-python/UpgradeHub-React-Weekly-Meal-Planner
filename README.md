@@ -1,10 +1,10 @@
 Proyecto React
 Planear Menu Comida semanal para 7 dias/ 3 comidas por dia
 
-[Lista de Platos](https://ibb.co/85DFvDG)
-
-https://github.com/ba23-python/UpgradeHub-React-Weekly-Meal-Planner/blob/main/src/assets/imagen-Weekly-Meal-Planner-all.PNG
-
+![image](https://github.com/ba23-python/UpgradeHub-React-Weekly-Meal-Planner/blob/main/src/assets/imagen-Weekly-Meal-Planner-all.PNG)
+![image]
+![image]
+![image]
 Proyecto React En este proyecto vamos a realizar una aplicación web que nos permita hacer una planificación de un menú semanal. En la página web podemos introducir los datos de 3 comidas por día para una semana entera.
 
 Objetivos
