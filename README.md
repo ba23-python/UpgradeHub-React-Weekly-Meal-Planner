@@ -1,5 +1,6 @@
-# Proyecto React
+# Proyecto React en equipo
 ## Planer Menu Comida semanal para 7 dias/ 3 comidas por dia
+### Miembros del equipo: Bilyana Ancheva y Beatriz Vazquez Amat
 
 ![image](https://github.com/ba23-python/UpgradeHub-React-Weekly-Meal-Planner/blob/main/src/assets/imagen-Weekly-Meal-Planner-all.PNG)
 ![image](https://github.com/ba23-python/UpgradeHub-React-Weekly-Meal-Planner/blob/main/src/assets/imagen-Weekly-Meal-Planner-lunes.PNG)
