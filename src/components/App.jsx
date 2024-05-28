@@ -1,6 +1,4 @@
 import './CSS/App.css';
-
-
 import { useEffect, useState } from "react";
 import { Route, Routes, useLocation } from "react-router-dom";
 import Login from "./Login";
@@ -11,6 +9,8 @@ import axios from "axios";
 import items from "./Data";
 import Menu from "./Menu";
 import Days from "./Days";
+import DeleteComida from "./DeleteComida";
+import AddComida from './AddComida';
 
 
 const allDays = ["Platos", ...new Set(items.map((item) => item.dia))];
@@ -59,7 +59,10 @@ function App() {
       {location.pathname !== '/login' && (
         <>
           <Days days={days} filterItems={filterItems} />
+          <DeleteComida id="1" />
+          <AddComida />
           <Menu items={menuItems} />
+           
         </>
       )}
     </div>
