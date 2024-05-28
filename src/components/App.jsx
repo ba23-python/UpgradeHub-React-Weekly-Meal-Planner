@@ -1,5 +1,8 @@
+import './CSS/App.css';
+
+
 import { useEffect, useState } from "react";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 import Login from "./Login";
 import NavBar from "./NavBar";
 import AuthRoute from "./AuthRoute/AuthRoute";
@@ -8,6 +11,7 @@ import axios from "axios";
 import items from "./Data";
 import Menu from "./Menu";
 import Days from "./Days";
+
 
 const allDays = ["Platos", ...new Set(items.map((item) => item.dia))];
 
@@ -34,13 +38,14 @@ function App() {
       });
   }, []);
 
- 
+  // Fetch current location
+  const location = useLocation();
 
   return (
     <div>
       <NavBar />
       <Routes>
-        <Route path="/" element={<h2>Lista de Menu Semanal</h2>} />
+        <Route path="/inicio" element={<h2>Lista de Menu Semanal</h2>} />
         <Route
           path="/login"
           element={<Login listUsers={listUsers} setUser={setUser} />}
@@ -50,10 +55,13 @@ function App() {
           element={<AuthRoute user={user} component={<Profile />} />}
         />
       </Routes>
-      <Days days={days} filterItems={filterItems} />
-      <Menu items={menuItems} />
-      
-      <div></div>
+
+      {location.pathname !== '/login' && (
+        <>
+          <Days days={days} filterItems={filterItems} />
+          <Menu items={menuItems} />
+        </>
+      )}
     </div>
   );
 }

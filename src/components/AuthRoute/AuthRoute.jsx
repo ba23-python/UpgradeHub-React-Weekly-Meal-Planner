@@ -1,15 +1,7 @@
-import { Navigate } from "react-router-dom"
-
+import { Navigate } from "react-router-dom";
 
 function AuthRoute({ user, component }) {
-
-    if (user === null) {
-        return <Navigate to="/login" />
-    } else if (user) { 
-        
-        return;
-    
-    }
+  return user ? component : <Navigate to="/login" />;
 }
 
-export default AuthRoute
+export default AuthRoute;

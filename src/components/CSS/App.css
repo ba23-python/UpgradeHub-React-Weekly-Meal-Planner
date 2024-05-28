@@ -1,0 +1,39 @@
+body {
+    background-color: #b6dab6;
+    /* light green background */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    padding: 20px;
+}
+
+h1,
+h2 {
+    color: #333;
+    /* Dark text color */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Initial button style */
+button {
+    background-color: rgb(169, 233, 187);
+    border: 2px;
+    padding: 10px 20px;
+    font-size: 16px;
+    /* Adjust font size */
+    cursor: pointer;
+    /* Change cursor to pointer */
+    transition: background-color 0.3s ease;
+    margin: 15px;
+
+}
+
+/* Button hover style */
+button:hover {
+    background-color: rgb(212, 226, 154);
+    /* Change color to orange on hover */
+}

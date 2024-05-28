@@ -1,0 +1,29 @@
+header {
+    background-color: #d5f5d5;
+    /* light green background */
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    /* Dark text color for links */
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff7043;
+    /* orange color on hover */
+}
