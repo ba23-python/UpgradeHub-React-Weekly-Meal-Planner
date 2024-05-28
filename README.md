@@ -1,6 +1,6 @@
 # Proyecto React en equipo
 ## Planer Menu Comida semanal para 7 dias/ 3 comidas por dia
-### Miembros del equipo: Bilyana Ancheva y Beatriz Vazquez Amat
+### Miembros del equipo: Bilyana Ancheva y Beatriz Vazquez Amat, Junior Full Stack Developers en Upgrade Hub
 
 Este proyecto se esta realizando en equipo por 2 Junior Full Stack Developers, alumnas en Upgarde Hub.
 Vamos a realizar una aplicación web que nos permita hacer una planificación de un menú semanal. 
