@@ -30,9 +30,9 @@ Objetivos
 .gitignore para node_modules
 
 ### Comandos para ejecutar:
-npm install /** para node_modules
-npm run dev /\***para el localhost
-instalar Extension de Chrome para Componentes React
+#### npm install /** para node_modules
+#### npm run dev /\***para el localhost
+#### instalar Extension de Chrome para Componentes React
 
 ### Componentes en este proyecto:
 Formulario de login para usuarios registrados/registro para nuevos usuarios
