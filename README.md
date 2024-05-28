@@ -58,7 +58,7 @@ Se ha compratido la repo entre el equipo y se ha utiizado el Project Board de Gi
 
 ![image](https://github.com/ba23-python/UpgradeHub-React-Weekly-Meal-Planner/blob/main/src/assets/Project%20Kanban%20Board.PNG))
 
-### Imagenes del testeo:
+### Imagenes de renderización y testeo:
 
 ![image](https://github.com/ba23-python/UpgradeHub-React-Weekly-Meal-Planner/blob/main/src/assets/imagen-Weekly-Meal-Planner-all.PNG)
 ![image](https://github.com/ba23-python/UpgradeHub-React-Weekly-Meal-Planner/blob/main/src/assets/imagen-Weekly-Meal-Planner-lunes.PNG)
