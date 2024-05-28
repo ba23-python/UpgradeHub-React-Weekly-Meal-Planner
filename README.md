@@ -21,11 +21,11 @@ Objetivos
 5. Filtrar las comidas por día.
 6. Eliminar una comida con splice
 7. Es importante deben hacer uso de
-   useContext, /clase 5
-   useEffect, /clase 3
-   useState, clase 2
+   useContext, 
+   useEffect, 
+   useState, 
    asi como rutas privada / auth -clase 7
-8. Podrian usar la API de node que tengan ya programada o mockapi.io
+
 
 .gitignore para node_modules
 
