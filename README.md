@@ -3,9 +3,9 @@
 ### Miembros del equipo: Bilyana Ancheva y Beatriz Vazquez Amat
 
 ![image](https://github.com/ba23-python/UpgradeHub-React-Weekly-Meal-Planner/blob/main/src/assets/imagen-Weekly-Meal-Planner-all.PNG)
-![image](https://github.com/ba23-python/UpgradeHub-React-Weekly-Meal-Planner/blob/main/src/assets/imagen-Weekly-Meal-Planner-lunes.PNG)
-![image](https://github.com/ba23-python/UpgradeHub-React-Weekly-Meal-Planner/blob/main/src/assets/imagen-Weekly-Meal-Planner-martes.PNG)
-![image](https://github.com/ba23-python/UpgradeHub-React-Weekly-Meal-Planner/blob/main/src/assets/imagen-Weekly-Meal-Planner-miercoles.PNG)
+![image]()
+![image]()
+![image]()
 
 
 Este proyecto se esta realizando en equipo de 2 Junior Full Stack Developers, alumnas en Upgarde Hub.
