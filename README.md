@@ -32,6 +32,7 @@ Objetivos
 
 ### Comandos para ejecutar:
 #### npm install /** para node_modules
+#### npm install react-router-dom
 #### npm run dev /\***para el localhost
 #### instalar Extension de Chrome para Componentes React
 
