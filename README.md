@@ -2,10 +2,24 @@
 ## Planer Menu Comida semanal para 7 dias/ 3 comidas por dia
 ### Miembros del equipo: Bilyana Ancheva y Beatriz Vazquez Amat
 
-![image]()
-![image]()
-![image]()
-![image]()
+![image](https://github.com/ba23-python/UpgradeHub-React-Weekly-Meal-Planner/blob/main/src/assets/imagen-Weekly-Meal-Planner-all.PNG)
+![image](https://github.com/ba23-python/UpgradeHub-React-Weekly-Meal-Planner/blob/main/src/assets/imagen-Weekly-Meal-Planner-lunes.PNG)
+![image](https://github.com/ba23-python/UpgradeHub-React-Weekly-Meal-Planner/blob/main/src/assets/imagen-Weekly-Meal-Planner-martes.PNG)
+![image](https://github.com/ba23-python/UpgradeHub-React-Weekly-Meal-Planner/blob/main/src/assets/imagen-Weekly-Meal-Planner-miercoles.PNG)
+![image](https://github.com/ba23-python/UpgradeHub-React-Weekly-Meal-Planner/blob/main/src/assets/imagen-invalid%20credentials.PNG)
+![image](https://github.com/ba23-python/UpgradeHub-React-Weekly-Meal-Planner/blob/main/src/assets/image-Create%20New%20User-in%20MockApi.PNG)
+![image](https://github.com/ba23-python/UpgradeHub-React-Weekly-Meal-Planner/blob/main/src/assets/image-Postman-GetUsers-ok.PNG)
+![image](https://github.com/ba23-python/UpgradeHub-React-Weekly-Meal-Planner/blob/main/src/assets/image-RecourceData-Mockapi-comida.PNG)
+![image](https://github.com/ba23-python/UpgradeHub-React-Weekly-Meal-Planner/blob/main/src/assets/image-SavePassword.PNG)
+![image](https://github.com/ba23-python/UpgradeHub-React-Weekly-Meal-Planner/blob/main/src/assets/image-anadir-borrar-Comida-UI.PNG)
+![image](https://github.com/ba23-python/UpgradeHub-React-Weekly-Meal-Planner/blob/main/src/assets/image-borrar-Comida-id-1.PNG)
+![image](https://github.com/ba23-python/UpgradeHub-React-Weekly-Meal-Planner/blob/main/src/assets/image-mockapi-users.PNG)
+![image](https://github.com/ba23-python/UpgradeHub-React-Weekly-Meal-Planner/blob/main/src/assets/image-newuser-added-Method-POST-Postman.PNG)
+![image](https://github.com/ba23-python/UpgradeHub-React-Weekly-Meal-Planner/blob/main/src/assets/image-ruta-Menu.PNG)
+![image](https://github.com/ba23-python/UpgradeHub-React-Weekly-Meal-Planner/blob/main/src/assets/image-ruta-login.PNG)
+![image](https://github.com/ba23-python/UpgradeHub-React-Weekly-Meal-Planner/blob/main/src/assets/imagen-Comidas%20Anadidas-Mockapi.PNG)
+![image](https://github.com/ba23-python/UpgradeHub-React-Weekly-Meal-Planner/blob/main/src/assets/imagen-Consola-Objeto-anadido.PNG)
+
 
 
 Este proyecto se esta realizando en equipo de 2 Junior Full Stack Developers, alumnas en Upgarde Hub.
