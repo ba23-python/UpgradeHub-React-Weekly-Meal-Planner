@@ -24,7 +24,7 @@ Objetivos
    useContext, 
    useEffect, 
    useState, 
-   asi como rutas privada / auth -clase 7
+   asi como rutas privada / auth 
 
 
 .gitignore para node_modules
